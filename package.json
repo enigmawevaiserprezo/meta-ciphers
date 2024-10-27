@@ -1,5 +1,5 @@
 {
-  "name": "baileys",
+  "name": "meta-ciphers",
   "version": "6.7.8",
   "description": "WhatsApp API",
   "keywords": [
@@ -12,9 +12,9 @@
     "automation",
     "multi-device"
   ],
-  "homepage": "https://github.com/enigma-w-e-b/Baileys",
+  "homepage": "https://github.com/enigma-w-e-b/meta-ciphers",
   "repository": {
-    "url": "git@github.com:enigma-w-e-b/Baileys.git"
+    "url": "git@github.com:enigma-w-e-b/meta-ciphers.git"
   },
   "license": "MIT",
   "author": "Adhiraj Singh",

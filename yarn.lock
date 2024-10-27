@@ -4,7 +4,8 @@
 
 "@adiwajshing/eslint-config@github:adiwajshing/eslint-config":
   version "1.0.0"
-  resolved "git+ssh://git@github.com/adiwajshing/eslint-config.git#7fd8604cd8c1a892228f621811fb90fff78b9647"
+  resolved "git+ssh://git@github.com/adiwajshing/eslint-config.git"
+  integrity sha512-cehozbo+p882tDfvhhT73zD2VfOZI7VARIomH7YDQk/UsFRVEJF1kb8CnCVI4sCq7y8IkZz9o8QLuXvXas6MTw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^7.15.0"
     "@typescript-eslint/parser" "^7.15.0"
@@ -5268,7 +5269,8 @@ libphonenumber-js@^1.10.20:
 
 "libsignal@github:enigma-w-e-b/libsignal-node":
   version "2.0.1"
-  resolved "git+ssh://git@github.com/enigma-w-e-b/libsignal-node.git#83a3e3a3864511cb74df1b796373f0d49d071134"
+  resolved "git+ssh://git@github.com/enigma-w-e-b/libsignal-node.git"
+  integrity sha512-Nk1YiSZBcWSoIDT3C66rk38SRufD6dyWaYpo71ndqxe8wDTYwv7V0ODt8CzcJhRPEM+rZ8eHAqmjTs83CH8+aA==
   dependencies:
     curve25519-js "^0.0.4"
     protobufjs "6.8.8"
@@ -5579,21 +5581,35 @@ min-indent@^1.0.0:
   resolved "https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz"
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
-minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
+minimatch@^3.0.4:
   version "3.1.2"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^9.0.0:
-  version "9.0.4"
-  resolved "https://registry.npmjs.org/minimatch/-/minimatch-9.0.4.tgz"
-  integrity sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==
+minimatch@^3.0.5:
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
-    brace-expansion "^2.0.1"
+    brace-expansion "^1.1.7"
 
-minimatch@^9.0.4:
+minimatch@^3.1.1:
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
+  dependencies:
+    brace-expansion "^1.1.7"
+
+minimatch@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
+  dependencies:
+    brace-expansion "^1.1.7"
+
+minimatch@^9.0.0, minimatch@^9.0.4:
   version "9.0.5"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz"
   integrity sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==

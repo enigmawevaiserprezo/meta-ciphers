@@ -4,7 +4,7 @@ import { createHash, randomBytes } from 'crypto'
 import { platform, release } from 'os'
 import { Logger } from 'pino'
 import { proto } from '../../WAProto'
-import { version as baileysVersion } from '../Defaults/baileys-version.json'
+import { version as baileysVersion } from '../Defaults/meta-ciphers-version.json'
 import { BaileysEventEmitter, BaileysEventMap, BrowsersMap, DisconnectReason, WACallUpdateType, WAVersion } from '../Types'
 import { BinaryNode, getAllBinaryNodeChildren, jidDecode } from '../WABinary'
 import logger from './logger'
@@ -254,7 +254,7 @@ export const printQRIfNecessaryListener = (ev: BaileysEventEmitter, logger: Logg
  * Use to ensure your WA connection is always on the latest version
  */
 export const fetchLatestBaileysVersion = async(options: AxiosRequestConfig<any> = { }) => {
-	const URL = 'https://raw.githubusercontent.com/enigma-w-e-b/Baileys/master/src/Defaults/baileys-version.json'
+	const URL = 'https://raw.githubusercontent.com/enigma-w-e-b/meta-ciphers/master/src/Defaults/meta-ciphers-version.json'
 	try {
 		const result = await axios.get<{ version: WAVersion }>(
 			URL,

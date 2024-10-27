@@ -7,7 +7,7 @@ import { initAuthCreds } from './auth-utils'
 import { BufferJSON } from './generics'
 
 // We need to lock files due to the fact that we are using async functions to read and write files
-// https://github.com/enigma-w-e-b/Baileys/issues/794
+// https://github.com/enigma-w-e-b/meta-ciphers/issues/794
 // https://github.com/nodejs/node/issues/26338
 // Default pending is 1000, set it to infinity
 // https://github.com/rogierschouten/async-lock/issues/63
