@@ -1,0 +1,11 @@
+# Ignore artifacts:
+lib
+coverage
+*.lock
+.eslintrc.json
+src/WABinary/index.ts
+WAProto
+WASignalGroup
+Example/test.ts
+docs
+node_modules
